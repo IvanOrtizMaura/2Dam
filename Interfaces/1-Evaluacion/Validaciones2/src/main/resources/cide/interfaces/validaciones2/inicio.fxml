@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Text?>
+
+
+<Pane fx:controller="cide.interfaces.validaciones2.InicioController" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="619.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Text layoutX="115.0" layoutY="159.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Letra" />
+      <TextField layoutX="217.0" layoutY="142.0" fx:id="txtLetra" />
+      <Button layoutX="417.0" layoutY="142.0" mnemonicParsing="false" text="Validar" fx:id="btnLetra" onAction="#validarLetraOnClick"/>
+      <Text layoutX="106.0" layoutY="192.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Numero" />
+      <TextField layoutX="217.0" layoutY="175.0" fx:id="txtNumero"/>
+      <Button layoutX="417.0" layoutY="175.0" mnemonicParsing="false" text="Validar" fx:id="btnNumero" onAction="#validarNumeroOnClick"/>
+      <Text layoutX="98.0" layoutY="231.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Contraseña" />
+      <TextField layoutX="217.0" layoutY="214.0" fx:id="txtContraseña" />
+      <Button layoutX="417.0" layoutY="214.0" mnemonicParsing="false" text="Validar" fx:id="btnContraseña" onAction="#validarContrasenaOnclick" />
+      <Text layoutX="112.0" layoutY="269.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Fecha" />
+      <TextField layoutX="217.0" layoutY="252.0" fx:id="txtFecha" />
+      <Button layoutX="417.0" layoutY="252.0" mnemonicParsing="false" text="Validar"  fx:id="btnFecha" onAction="#validaFechaOnClick"/>
+   </children>
+</Pane>

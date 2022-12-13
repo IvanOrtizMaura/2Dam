@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="calle">
+    <xs:simpleType>
+      <xs:restriction base="xs:string">
+        <xs:enumeration value="Paseo maritimo"/>
+        <xs:enumeration value="Principal"/>
+        <xs:enumeration value="Juan Quevedo"/>
+      </xs:restriction>
+    </xs:simpleType>
+  </xs:element>
+  <xs:element name="numero">
+    <xs:simpleType>
+      <xs:restriction base="xs:string">
+        <xs:enumeration value="4"/>
+        <xs:enumeration value="81"/>
+        <xs:enumeration value="2"/>
+      </xs:restriction>
+    </xs:simpleType>
+  </xs:element>
+  <xs:element name="ciudad">
+    <xs:simpleType>
+      <xs:restriction base="xs:string">
+        <xs:enumeration value="Chiclana"/>
+        <xs:enumeration value="La Mola"/>
+        <xs:enumeration value="Las Palmas de Gran Canaria"/>
+      </xs:restriction>
+    </xs:simpleType>
+  </xs:element>
+  <xs:element name="codigo_postal">
+    <xs:simpleType>
+      <xs:restriction base="xs:string">
+        <xs:enumeration value="06871"/>
+        <xs:enumeration value="07871"/>
+        <xs:enumeration value="03871"/>
+      </xs:restriction>
+    </xs:simpleType>
+  </xs:element>
+  <xs:element name="pais" type="xs:string"/>
+  <xs:element name="nombre">
+    <xs:simpleType>
+      <xs:restriction base="xs:string">
+        <xs:enumeration value="Riu Chiclana"/>
+        <xs:enumeration value="Riu La Mola"/>
+        <xs:enumeration value="Riu Palace"/>
+      </xs:restriction>
+    </xs:simpleType>
+  </xs:element>
+  <xs:element name="estrellas">
+    <xs:simpleType>
+      <xs:restriction base="xs:string">
+        <xs:enumeration value="4"/>
+        <xs:enumeration value="3"/>
+      </xs:restriction>
+    </xs:simpleType>
+  </xs:element>
+  <xs:element name="telefono">
+    <xs:simpleType>
+      <xs:restriction base="xs:string">
+        <xs:enumeration value="687622331"/>
+        <xs:enumeration value="687442331"/>
+        <xs:enumeration value="666888111"/>
+      </xs:restriction>
+    </xs:simpleType>
+  </xs:element>
+  <xs:element name="direccion">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="calle"/>
+        <xs:element ref="numero"/>
+        <xs:element ref="ciudad"/>
+        <xs:element ref="codigo_postal"/>
+        <xs:element ref="pais"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="empresa" type="xs:string"/>
+  <xs:element name="fundacion" type="xs:string"/>
+  <xs:element name="ciudad_sede" type="xs:string"/>
+  <xs:element name="pais_sede" type="xs:string"/>
+  <xs:element name="hotel">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="nombre"/>
+        <xs:element ref="estrellas"/>
+        <xs:element ref="telefono"/>
+        <xs:element ref="direccion"/>
+      </xs:sequence>
+      <xs:attribute type="xs:string" name="id" use="optional"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="hoteles">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="empresa"/>
+        <xs:element ref="fundacion"/>
+        <xs:element ref="ciudad_sede"/>
+        <xs:element ref="pais_sede"/>
+        <xs:element ref="hotel" maxOccurs="unbounded" minOccurs="0"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

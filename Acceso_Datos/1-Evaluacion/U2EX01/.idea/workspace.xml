@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4c177186-2de8-4cce-8121-f66865c42b20" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../U1EX02/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../U1EX03/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../U1EX03/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../U1EX03/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../U1EX03/src/main/java/org/example/Videojuego.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../U1EX04/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../U1EX04/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../U1EX04/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../U1EX04/Clientes.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../U1EX04/U1EX04.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../U1EX04/src/Cliente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../U1EX05/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../U1EX05/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../U1EX05/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../U1EX05/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../U1EX05/U1EX05.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../U1EX05/breakfast_menu.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../U1EX05/src/Food.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../U1EX05/src/Main2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../U1EX06/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../U1EX06/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../U1EX06/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../U1EX06/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../U1EX06/U1EX06.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../U1EX06/src/trabajadores.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../U1EX07-1/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../U1EX07-1/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../U1EX07-1/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../U1EX07-1/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../U1EX07-1/U1EX07-1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../U1EX07-1/concesionario.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../U1EX07-1/concesionario.xsd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../U1EX07-1/out/production/U1EX07-1/Clases/Coche.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../U1EX07-1/out/production/U1EX07-1/Clases/Concesionario.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../U1EX07-1/out/production/U1EX07-1/Clases/ObjectFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../U1EX07-1/out/production/U1EX07-1/Clases/concesionario.xsd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../U1EX07-1/out/production/U1EX07-1/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../U1EX07-1/src/Clases/Coche.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../U1EX07-1/src/Clases/Concesionario.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../U1EX07-1/src/Clases/ObjectFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../U1EX07-1/src/Clases/concesionario.xsd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../U1_EXAMEN01/U1_EXAMEN01.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../U1_EXAMEN01/hoteles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../U2EX02/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../U2EX02/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../U2EX02/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../U2EX02/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../U2EX02/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../U2EX02/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled/untitled.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ActividadTema1Presencial/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ActividadTema1Presencial/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ActividadTema1Presencial/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ActividadTema1Presencial/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ActividadTema1Presencial/ActividadTema1Presencial.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ActividadTema1Presencial/src/Hijo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../ActividadTema1Presencial/src/Padre.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../U2Ex03/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../U2Ex03/src/main/java/org/example/BaseDeDatos.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Interfaces/1-Evaluacion/Validaciones/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Interfaces/1-Evaluacion/Validaciones/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Interfaces/1-Evaluacion/Validaciones/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Interfaces/1-Evaluacion/Validaciones/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Interfaces/1-Evaluacion/Validaciones/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Interfaces/1-Evaluacion/Validaciones/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Interfaces/1-Evaluacion/Validaciones/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Interfaces/1-Evaluacion/Validaciones/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Interfaces/1-Evaluacion/Validaciones/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Interfaces/1-Evaluacion/Validaciones/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Interfaces/1-Evaluacion/Validaciones/src/main/java/dam/interfaces/validaciones/InicioAplicacion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Interfaces/1-Evaluacion/Validaciones/src/main/java/dam/interfaces/validaciones/InicioController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Interfaces/1-Evaluacion/Validaciones/src/main/java/module-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Prog_Multimedia/1-Evaluacion/Calculadora/app/src/main/java/calculadora/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Prog_Multimedia/Examen1/app/src/main/res/values-es-rES/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Servicios_i_Procesos/.idea/Servicios_i_Procesos.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Servicios_i_Procesos/1-Evaluacion/Actividad-3/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Servicios_i_Procesos/1-Evaluacion/Actividad-3/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Servicios_i_Procesos/1-Evaluacion/Actividad-3/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Servicios_i_Procesos/1-Evaluacion/Actividad-3/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Servicios_i_Procesos/1-Evaluacion/Actividad-3/Actividad-3.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Servicios_i_Procesos/1-Evaluacion/Actividad4/InputStreamReader.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Servicios_i_Procesos/1-Evaluacion/Actividad4/src/Hijo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Servicios_i_Procesos/1-Evaluacion/Actividad4/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Servicios_i_Procesos/1-Evaluacion/Actividad6.1/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Servicios_i_Procesos/1-Evaluacion/Actividad6.1/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Servicios_i_Procesos/1-Evaluacion/Actividad6.1/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Servicios_i_Procesos/1-Evaluacion/Actividad6.1/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Servicios_i_Procesos/1-Evaluacion/Actividad6.1/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Servicios_i_Procesos/1-Evaluacion/Actividad6.1/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Servicios_i_Procesos/1-Evaluacion/Actividad6.1/el_quijote.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Servicios_i_Procesos/1-Evaluacion/Actividad6.1/src/main/java/org/example/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Servicios_i_Procesos/1-Evaluacion/Actividad6.1/target/classes/org/example/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Servicios_i_Procesos/1-Evaluacion/Examen1/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Servicios_i_Procesos/1-Evaluacion/Examen1/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Servicios_i_Procesos/1-Evaluacion/Examen1/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Servicios_i_Procesos/1-Evaluacion/Examen1/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Servicios_i_Procesos/1-Evaluacion/Examen1/Examen1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Servicios_i_Procesos/1-Evaluacion/Examen1/src/Hijo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Servicios_i_Procesos/1-Evaluacion/InputStream/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Servicios_i_Procesos/1-Evaluacion/InputStream/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Servicios_i_Procesos/1-Evaluacion/InputStream/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Servicios_i_Procesos/1-Evaluacion/InputStream/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Servicios_i_Procesos/1-Evaluacion/InputStream/InputStream.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Servicios_i_Procesos/1-Evaluacion/InputStream/src/Hijo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Servicios_i_Procesos/1-Evaluacion/InputStream/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Servicios_i_Procesos/1-Evaluacion/Quijote/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Servicios_i_Procesos/1-Evaluacion/Quijote/src/main/java/org/example/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Servicios_i_Procesos/EjActividad6/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../U1EX02.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Interfaces/1-Evaluacion/Lluvia de palabras.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Servicios_i_Procesos/1-Evaluacion/Actividad3/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../U1EX02/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Servicios_i_Procesos/1-Evaluacion/Actividad3/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../U1EX04/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Servicios_i_Procesos/1-Evaluacion/Actividad3/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../U1EX02/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Servicios_i_Procesos/1-Evaluacion/Actividad3/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../U1EX02/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Servicios_i_Procesos/1-Evaluacion/Actividad3/Actividad3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../U1EX02/U1EX02.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Servicios_i_Procesos/1-Evaluacion/Actividad3/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../U1EX07-1/src/Main.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2HEEttCcNnGV81Yy1AMwfoMAqko" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;
+  }
+}</component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4c177186-2de8-4cce-8121-f66865c42b20" name="Changes" comment="" />
+      <created>1667842062173</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1667842062173</updated>
+      <workItem from="1667842063361" duration="2288000" />
+      <workItem from="1668796371307" duration="13000" />
+      <workItem from="1669047633749" duration="13000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

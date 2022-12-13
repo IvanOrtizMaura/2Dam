@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<hoteles>
+    <empresa>RIU</empresa>
+    <fundacion>1953</fundacion>
+    <ciudad_sede>Palma</ciudad_sede>
+    <pais_sede>ES</pais_sede>
+    <hotel id="1">
+        <nombre>Riu Chiclana</nombre>
+        <estrellas>4</estrellas>
+        <telefono>687622331</telefono>
+        <direccion>
+            <calle>Paseo maritimo</calle>
+            <numero>4</numero>
+            <ciudad>Chiclana</ciudad>
+            <codigo_postal>06871</codigo_postal>
+            <pais>ES</pais>
+        </direccion>
+    </hotel>
+    <hotel id="2">
+        <nombre>Riu La Mola</nombre>
+        <estrellas>4</estrellas>
+        <telefono>687442331</telefono>
+        <direccion>
+            <calle>Principal</calle>
+            <numero>81</numero>
+            <ciudad>La Mola</ciudad>
+            <codigo_postal>07871</codigo_postal>
+            <pais>ES</pais>
+        </direccion>
+    </hotel>
+    <hotel id="3">
+        <nombre>Riu Palace</nombre>
+        <estrellas>3</estrellas>
+        <telefono>666888111</telefono>
+        <direccion>
+            <calle>Juan Quevedo</calle>
+            <numero>2</numero>
+            <ciudad>Las Palmas de Gran Canaria</ciudad>
+            <codigo_postal>03871</codigo_postal>
+            <pais>ES</pais>
+        </direccion>
+    </hotel>
+    <hotel id="4">
+        <nombre>Riu Miramar</nombre>
+        <estrellas>5</estrellas>
+        <telefono>634611386</telefono>
+    </hotel>
+
+</hoteles>

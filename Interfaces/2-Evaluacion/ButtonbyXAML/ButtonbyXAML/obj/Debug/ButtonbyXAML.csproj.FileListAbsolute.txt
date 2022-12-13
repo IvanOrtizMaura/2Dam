@@ -1,0 +1,17 @@
+C:\Users\ivant\OneDrive\Escritorio\2Dam\Interfaces\2-Evaluacion\ButtonbyXAML\ButtonbyXAML\bin\Debug\ButtonbyXAML.exe.config
+C:\Users\ivant\OneDrive\Escritorio\2Dam\Interfaces\2-Evaluacion\ButtonbyXAML\ButtonbyXAML\bin\Debug\ButtonbyXAML.exe
+C:\Users\ivant\OneDrive\Escritorio\2Dam\Interfaces\2-Evaluacion\ButtonbyXAML\ButtonbyXAML\bin\Debug\ButtonbyXAML.pdb
+C:\Users\ivant\OneDrive\Escritorio\2Dam\Interfaces\2-Evaluacion\ButtonbyXAML\ButtonbyXAML\obj\Debug\ButtonbyXAML.csproj.AssemblyReference.cache
+C:\Users\ivant\OneDrive\Escritorio\2Dam\Interfaces\2-Evaluacion\ButtonbyXAML\ButtonbyXAML\obj\Debug\ButtonbyXAML.csproj.SuggestedBindingRedirects.cache
+C:\Users\ivant\OneDrive\Escritorio\2Dam\Interfaces\2-Evaluacion\ButtonbyXAML\ButtonbyXAML\obj\Debug\MainWindow.g.cs
+C:\Users\ivant\OneDrive\Escritorio\2Dam\Interfaces\2-Evaluacion\ButtonbyXAML\ButtonbyXAML\obj\Debug\App.g.cs
+C:\Users\ivant\OneDrive\Escritorio\2Dam\Interfaces\2-Evaluacion\ButtonbyXAML\ButtonbyXAML\obj\Debug\ButtonbyXAML_MarkupCompile.cache
+C:\Users\ivant\OneDrive\Escritorio\2Dam\Interfaces\2-Evaluacion\ButtonbyXAML\ButtonbyXAML\obj\Debug\ButtonbyXAML_MarkupCompile.lref
+C:\Users\ivant\OneDrive\Escritorio\2Dam\Interfaces\2-Evaluacion\ButtonbyXAML\ButtonbyXAML\obj\Debug\MainWindow.baml
+C:\Users\ivant\OneDrive\Escritorio\2Dam\Interfaces\2-Evaluacion\ButtonbyXAML\ButtonbyXAML\obj\Debug\ButtonbyXAML.g.resources
+C:\Users\ivant\OneDrive\Escritorio\2Dam\Interfaces\2-Evaluacion\ButtonbyXAML\ButtonbyXAML\obj\Debug\ButtonbyXAML.Properties.Resources.resources
+C:\Users\ivant\OneDrive\Escritorio\2Dam\Interfaces\2-Evaluacion\ButtonbyXAML\ButtonbyXAML\obj\Debug\ButtonbyXAML.csproj.GenerateResource.cache
+C:\Users\ivant\OneDrive\Escritorio\2Dam\Interfaces\2-Evaluacion\ButtonbyXAML\ButtonbyXAML\obj\Debug\ButtonbyXAML.csproj.CoreCompileInputs.cache
+C:\Users\ivant\OneDrive\Escritorio\2Dam\Interfaces\2-Evaluacion\ButtonbyXAML\ButtonbyXAML\obj\Debug\ButtonbyXAML.exe
+C:\Users\ivant\OneDrive\Escritorio\2Dam\Interfaces\2-Evaluacion\ButtonbyXAML\ButtonbyXAML\obj\Debug\ButtonbyXAML.pdb
+C:\Users\ivant\OneDrive\Escritorio\2Dam\Interfaces\2-Evaluacion\ButtonbyXAML\ButtonbyXAML\obj\Debug\App.baml

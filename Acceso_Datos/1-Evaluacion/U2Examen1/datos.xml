@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<mundial>
+    <titulo>Copa Mundial de la FIFA</titulo>
+    <ubicacion>Qatar</ubicacion>
+    <edicion>2022</edicion>
+    <total_selecciones>32</total_selecciones>
+    <pais id="1">
+        <equipo>Qatar</equipo>
+        <region>Asia</region>
+        <ranking>50</ranking>
+        <entrenador>Félix Sánchez Bas</entrenador>
+    </pais>
+    <pais id="2">
+        <equipo>España</equipo>
+        <region>Europa</region>
+        <ranking>7</ranking>
+        <entrenador>Luis Enrique Martínez García</entrenador>
+    </pais>
+    <pais id="3">
+        <equipo>Ecuador</equipo>
+        <region>Sudamerica</region>
+        <ranking>44</ranking>
+        <entrenador>Gustavo Julio Alfaro</entrenador>
+    </pais>
+    <pais id="4">
+        <equipo>Senegal</equipo>
+        <region>Africa</region>
+        <ranking>18</ranking>
+        <entrenador>Aliou Cissé</entrenador>
+    </pais>
+</mundial>

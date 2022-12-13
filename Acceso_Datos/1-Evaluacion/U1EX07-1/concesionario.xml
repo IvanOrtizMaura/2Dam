@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<concesionario>
+    <nombre>Coches Mallorca</nombre>
+    <direccion>Carrer d'Alexandre de Laborde</direccion>
+    <telefono>971321654</telefono>
+    <coche id="1">
+        <marca>bmw</marca>
+        <color>rojo</color>
+        <matricula>xse0092</matricula>
+        <precio>50040</precio>
+    </coche>
+    <coche id="2">
+        <marca>audi</marca>
+        <color>azul</color>
+        <matricula>xse0022</matricula>
+        <precio>30000</precio>
+    </coche>
+    <coche id="3">
+        <marca>mg</marca>
+        <color>rosa</color>
+        <matricula>xse0012</matricula>
+        <precio>24000</precio>
+    </coche>
+</concesionario>

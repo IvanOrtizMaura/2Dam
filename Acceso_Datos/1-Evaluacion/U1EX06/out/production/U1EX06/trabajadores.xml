@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<Trabajadores> 
+	<Trabajador id="1"> 
+		<edad>29</edad> 
+		<nombre>Miquel</nombre> 
+		<genero>Hombre</genero> 
+		<rol>Java Developer</rol> 
+	</Trabajador> 
+	<Trabajador id="2"> 
+		<edad>35</edad> 
+		<nombre>Maria</nombre> 
+		<genero>Mujer</genero> 
+		<rol>CEO</rol> 
+	</Trabajador> 
+	<Trabajador id="3"> 
+		<edad>40</edad> 
+		<nombre>Alejandro</nombre> 
+		<genero>Hombre</genero> 
+		<rol>Manager</rol> 
+	</Trabajador> 
+	<Trabajador id="4"> 
+		<edad>25</edad> 
+		<nombre>Marta</nombre> 
+		<genero>Mujer</genero> 
+		<rol>Manager</rol> 
+	</Trabajador>
+	<Trabajador id="5"> 
+		<edad>55</edad> 
+		<nombre>Javier</nombre> 
+		<genero>Hombre</genero> 
+		<rol>Devops</rol> 
+	</Trabajador> 
+	<Trabajador id="6"> 
+		<edad>20</edad> 
+		<nombre>Lucia</nombre> 
+		<genero>Mujer</genero> 
+		<rol>Devops</rol> 
+	</Trabajador> 
+	<Trabajador id="7"> 
+		<edad>28</edad> 
+		<nombre>Xisca</nombre> 
+		<genero>Mujer</genero> 
+		<rol>Manager</rol> 
+	</Trabajador> 
+</Trabajadores>
+

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="equipo">
+    <xs:simpleType>
+      <xs:restriction base="xs:string">
+        <xs:enumeration value="Qatar"/>
+        <xs:enumeration value="España"/>
+        <xs:enumeration value="Ecuador"/>
+        <xs:enumeration value="Senegal"/>
+      </xs:restriction>
+    </xs:simpleType>
+  </xs:element>
+  <xs:element name="region">
+    <xs:simpleType>
+      <xs:restriction base="xs:string">
+        <xs:enumeration value="Asia"/>
+        <xs:enumeration value="Europa"/>
+        <xs:enumeration value="Sudamerica"/>
+        <xs:enumeration value="Africa"/>
+      </xs:restriction>
+    </xs:simpleType>
+  </xs:element>
+  <xs:element name="ranking">
+    <xs:simpleType>
+      <xs:restriction base="xs:string">
+        <xs:enumeration value="50"/>
+        <xs:enumeration value="7"/>
+        <xs:enumeration value="44"/>
+        <xs:enumeration value="18"/>
+      </xs:restriction>
+    </xs:simpleType>
+  </xs:element>
+  <xs:element name="entrenador">
+    <xs:simpleType>
+      <xs:restriction base="xs:string">
+        <xs:enumeration value="Félix Sánchez Bas"/>
+        <xs:enumeration value="Luis Enrique Martínez García"/>
+        <xs:enumeration value="Gustavo Julio Alfaro"/>
+        <xs:enumeration value="Aliou Cissé"/>
+      </xs:restriction>
+    </xs:simpleType>
+  </xs:element>
+  <xs:element name="titulo" type="xs:string"/>
+  <xs:element name="ubicacion" type="xs:string"/>
+  <xs:element name="edicion" type="xs:string"/>
+  <xs:element name="total_selecciones" type="xs:string"/>
+  <xs:element name="pais">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="equipo"/>
+        <xs:element ref="region"/>
+        <xs:element ref="ranking"/>
+        <xs:element ref="entrenador"/>
+      </xs:sequence>
+      <xs:attribute type="xs:string" name="id" use="optional"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="mundial">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="titulo"/>
+        <xs:element ref="ubicacion"/>
+        <xs:element ref="edicion"/>
+        <xs:element ref="total_selecciones"/>
+        <xs:element ref="pais" maxOccurs="unbounded" minOccurs="0"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

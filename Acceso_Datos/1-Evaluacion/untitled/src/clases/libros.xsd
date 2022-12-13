@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="libro" type="libroType"/>
+  <xs:complexType name="libroType">
+    <xs:sequence>
+      <xs:element type="xs:short" name="numeroPaginas"/>
+      <xs:element type="xs:string" name="titulo"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>

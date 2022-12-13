@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="marca">
+    <xs:simpleType>
+      <xs:restriction base="xs:string">
+        <xs:enumeration value="bmw"/>
+        <xs:enumeration value="audi"/>
+        <xs:enumeration value="mg"/>
+      </xs:restriction>
+    </xs:simpleType>
+  </xs:element>
+  <xs:element name="color">
+    <xs:simpleType>
+      <xs:restriction base="xs:string">
+        <xs:enumeration value="rojo"/>
+        <xs:enumeration value="azul"/>
+        <xs:enumeration value="rosa"/>
+      </xs:restriction>
+    </xs:simpleType>
+  </xs:element>
+  <xs:element name="matricula">
+    <xs:simpleType>
+      <xs:restriction base="xs:string">
+        <xs:enumeration value="xse0092"/>
+        <xs:enumeration value="xse0022"/>
+        <xs:enumeration value="xse0012"/>
+      </xs:restriction>
+    </xs:simpleType>
+  </xs:element>
+  <xs:element name="precio">
+    <xs:simpleType>
+      <xs:restriction base="xs:int">
+        <xs:enumeration value="50040"/>
+        <xs:enumeration value="30000"/>
+        <xs:enumeration value="24000"/>
+      </xs:restriction>
+    </xs:simpleType>
+  </xs:element>
+  <xs:element name="nombre" type="xs:string"/>
+  <xs:element name="direccion" type="xs:string"/>
+  <xs:element name="telefono" type="xs:int"/>
+  <xs:element name="coche">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="marca"/>
+        <xs:element ref="color"/>
+        <xs:element ref="matricula"/>
+        <xs:element ref="precio"/>
+      </xs:sequence>
+      <xs:attribute type="xs:byte" name="id" use="optional"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="concesionario">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="nombre"/>
+        <xs:element ref="direccion"/>
+        <xs:element ref="telefono"/>
+        <xs:element ref="coche" maxOccurs="unbounded" minOccurs="0"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

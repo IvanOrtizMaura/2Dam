@@ -1,0 +1,20 @@
+create database if not exists mundial;
+use mundial;
+create table if not exists mundial (
+	id int not null auto_increment,
+     titulo varchar (255),
+    ubicacion varchar(255),
+    edicion varchar(255),
+    total_selecciones varchar (255),
+    primary key (id)
+);
+create table if not exists pais (
+	id int not null,
+    equipo varchar (255),
+    region varchar(255),
+    ranking varchar(255),
+    entrenador varchar (255),
+    id_mundial int,
+    primary key (id),
+    foreign key(id_mundial) references mundial(id)
+);

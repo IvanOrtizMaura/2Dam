@@ -1,0 +1,23 @@
+rent a car bicis y motos electricas
+no hay limite de tiempo
+hay varios puntos para dejar el vehiculo en un mpaa
+necesario dni y carne conducir para registrar en la ppp
+gestion de pagos, gestion de incidencias, 
+inicio de sesion estándarwr
+
+--------------------------------------------------------------------------------
+RF 1 La aplicacion permitira un servicio de alquiler de vicicletas y motocicletas elecetricas.
+	RF 1.1 La aplicación obtendrá de un solo tipo de motcicleta y una sola cilindrada.
+RF 2 La aplicación cobrará 0,26€/min por el alquiler de una moto o bicicleta.
+	RF 2.1 La aplicación cobrará 25€ por el registro de la aplicación para el seguro del cliente.
+		RF 2.1 El seguro de la aplicacion cubrirá hasta 200€
+	RF 2.2 La aplicacion dejará solo con trajeta de crédito.
+RF 3 La aplicación estará disponible en: BCN, SVQ, MDR, PMI
+	RF 3.1 La aplicacion no dejara sacar las motocicles y bicicletas fuera de la ciudad.
+RF 4 La aplicación aceptará hacer reservas con antelación de dos semanas.
+	RF 4.1 La aplicación no tendra limite de uso.
+RF 5 La aplicacion aceptará el registro a los usuarios, insertando DNI, carnet de conducir.
+	RF 5.1 La aplicacion confirmara los datos con el govierno.
+	RF 5.2 Para el registro del usuario es necesario ser mayor de edad.
+RF 6 La aplicación aceptará incidencias de los usuarios.
+RF 7 El sistema contendrá una mapa para saber los puntos de carga
