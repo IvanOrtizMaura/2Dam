@@ -143,7 +143,7 @@ public class TicTacToe extends View {
                     if (game.getPlantilla()[r][c] == 1) {
                         drawX(canvas, r, c);
                     } else {
-                        drawO(canvas);
+                        drawO(canvas,r,c);
                     }
                 }
             }
@@ -166,9 +166,8 @@ public class TicTacToe extends View {
 
     }
 
-    private void drawO(Canvas canvas) {
-        int row = (int) (Math.random() * 3);
-        int col = (int) (Math.random() * 3);
+    private void drawO(Canvas canvas, int row, int col) {
+
         paint.setColor(OColor);
 
         canvas.drawOval((float) ((col) * cellSize + cellSize * 0.2),

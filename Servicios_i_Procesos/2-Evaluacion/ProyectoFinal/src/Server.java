@@ -1,24 +1,28 @@
-import java.io.BufferedReader;
-import java.io.InputStreamReader;
-import java.net.ServerSocket;
-import java.net.Socket;
+import java.io.*;
+import java.net.*;
+import java.util.*;
 
 public class Server {
+
+    private static final int port = 8888;
+
+    private static ArrayList<Connection> conexiones = new ArrayList<>();
+
     public static void main(String[] args) {
-        System.out.println("Iniciando servidor ...");
-        ServerSocket servidor = null;
-        try {
-            servidor = new ServerSocket(8888);
-            while (servidor != null) {
-                Socket conexion = servidor.accept();
 
-            }
-        } catch (Exception e) {
-            // TODO: handle exception
+        ServerSocket servidor = new ServerSocket(port);
+        System.out.println("Servidor abierto en el puerto " + port);
+
+        while (true) {
+            // Esperar a que llegue una conexión entrante
+            Socket socket = servidor.accept();
+
+            // Crear una nueva conexión y agregarla a la lista de conexiones activas
+            Connection connection = new Connection(socket);
+            connections.add(connection);
         }
-    }
 
-}
+    }
 
 class HiloServidor extends Thread {
     Socket conexion;
