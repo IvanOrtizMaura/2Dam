@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+    <class name="tablas.Fabricante" table="fabricante" schema="tienda">
+        <id name="id">
+            <column name="id" sql-type="int unsigned"/>
+        </id>
+        <property name="nombre">
+            <column name="nombre" sql-type="varchar(100)" length="100"/>
+        </property>
+        <set name="productosById" inverse="true">
+            <key>
+                <column name="id_fabricante"/>
+            </key>
+            <one-to-many not-found="ignore" class="tablas.Producto"/>
+        </set>
+    </class>
+</hibernate-mapping>

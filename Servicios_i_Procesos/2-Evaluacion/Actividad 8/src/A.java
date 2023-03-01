@@ -47,6 +47,7 @@ class HiloServidor extends Thread{
 
                 linea = leerCliente.readLine();
             }
+            
         } catch (IOException e) {
             System.err.println("Error al leer al cliente");
             throw new RuntimeException(e);

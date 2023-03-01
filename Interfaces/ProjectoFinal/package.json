@@ -1,0 +1,14 @@
+{
+  "name": "tim",
+  "version": "1.0.0",
+  "description": "proyecto final de interfaces",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ivan ortiz maura",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}

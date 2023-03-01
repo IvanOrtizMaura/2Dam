@@ -1,0 +1,17 @@
+C:\Users\ivant\OneDrive\Escritorio\2Dam\Interfaces\2-Evaluacion\MemoryV2\MemoryV2\bin\Debug\net6.0-windows\MemoryV2.exe
+C:\Users\ivant\OneDrive\Escritorio\2Dam\Interfaces\2-Evaluacion\MemoryV2\MemoryV2\bin\Debug\net6.0-windows\MemoryV2.deps.json
+C:\Users\ivant\OneDrive\Escritorio\2Dam\Interfaces\2-Evaluacion\MemoryV2\MemoryV2\bin\Debug\net6.0-windows\MemoryV2.runtimeconfig.json
+C:\Users\ivant\OneDrive\Escritorio\2Dam\Interfaces\2-Evaluacion\MemoryV2\MemoryV2\bin\Debug\net6.0-windows\MemoryV2.dll
+C:\Users\ivant\OneDrive\Escritorio\2Dam\Interfaces\2-Evaluacion\MemoryV2\MemoryV2\bin\Debug\net6.0-windows\MemoryV2.pdb
+C:\Users\ivant\OneDrive\Escritorio\2Dam\Interfaces\2-Evaluacion\MemoryV2\MemoryV2\obj\Debug\net6.0-windows\MemoryV2.csproj.AssemblyReference.cache
+C:\Users\ivant\OneDrive\Escritorio\2Dam\Interfaces\2-Evaluacion\MemoryV2\MemoryV2\obj\Debug\net6.0-windows\MemoryV2.Form1.resources
+C:\Users\ivant\OneDrive\Escritorio\2Dam\Interfaces\2-Evaluacion\MemoryV2\MemoryV2\obj\Debug\net6.0-windows\MemoryV2.csproj.GenerateResource.cache
+C:\Users\ivant\OneDrive\Escritorio\2Dam\Interfaces\2-Evaluacion\MemoryV2\MemoryV2\obj\Debug\net6.0-windows\MemoryV2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ivant\OneDrive\Escritorio\2Dam\Interfaces\2-Evaluacion\MemoryV2\MemoryV2\obj\Debug\net6.0-windows\MemoryV2.AssemblyInfoInputs.cache
+C:\Users\ivant\OneDrive\Escritorio\2Dam\Interfaces\2-Evaluacion\MemoryV2\MemoryV2\obj\Debug\net6.0-windows\MemoryV2.AssemblyInfo.cs
+C:\Users\ivant\OneDrive\Escritorio\2Dam\Interfaces\2-Evaluacion\MemoryV2\MemoryV2\obj\Debug\net6.0-windows\MemoryV2.csproj.CoreCompileInputs.cache
+C:\Users\ivant\OneDrive\Escritorio\2Dam\Interfaces\2-Evaluacion\MemoryV2\MemoryV2\obj\Debug\net6.0-windows\MemoryV2.dll
+C:\Users\ivant\OneDrive\Escritorio\2Dam\Interfaces\2-Evaluacion\MemoryV2\MemoryV2\obj\Debug\net6.0-windows\refint\MemoryV2.dll
+C:\Users\ivant\OneDrive\Escritorio\2Dam\Interfaces\2-Evaluacion\MemoryV2\MemoryV2\obj\Debug\net6.0-windows\MemoryV2.pdb
+C:\Users\ivant\OneDrive\Escritorio\2Dam\Interfaces\2-Evaluacion\MemoryV2\MemoryV2\obj\Debug\net6.0-windows\MemoryV2.genruntimeconfig.cache
+C:\Users\ivant\OneDrive\Escritorio\2Dam\Interfaces\2-Evaluacion\MemoryV2\MemoryV2\obj\Debug\net6.0-windows\ref\MemoryV2.dll

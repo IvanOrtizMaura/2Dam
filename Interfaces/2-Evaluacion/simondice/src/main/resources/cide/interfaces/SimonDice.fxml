@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="639.0" prefWidth="817.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cide.interfaces.SimonDiceController">
+   <children>
+      <Button layoutX="609.0" layoutY="199.0" mnemonicParsing="false" prefHeight="100.0" prefWidth="125.0" text="Start" fx:id="startButton" />
+      <Button layoutX="609.0" layoutY="341.0" mnemonicParsing="false" onAction="#instrucciones" prefHeight="100.0" fx:id="instruccionesButton" prefWidth="125.0" text="Instrucciones" />
+      <Button fx:id="verde" layoutX="87.0" layoutY="120.0" mnemonicParsing="false" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: green;" />
+      <Button fx:id="rojo" layoutX="287.0" layoutY="120.0" mnemonicParsing="false" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: red;" />
+      <Button fx:id="azul" layoutX="287.0" layoutY="321.0" mnemonicParsing="false" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: blue;" />
+      <Button fx:id="amarillo" layoutX="87.0" layoutY="321.0" mnemonicParsing="false" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: yellow;" />
+   </children>
+</Pane>

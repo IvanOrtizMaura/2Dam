@@ -1,0 +1,17 @@
+C:\Users\ivant\OneDrive\Escritorio\2Dam\Interfaces\2-Evaluacion\LoginandList\LoginandList\bin\Debug\net6.0-windows\LoginandList.exe
+C:\Users\ivant\OneDrive\Escritorio\2Dam\Interfaces\2-Evaluacion\LoginandList\LoginandList\bin\Debug\net6.0-windows\LoginandList.deps.json
+C:\Users\ivant\OneDrive\Escritorio\2Dam\Interfaces\2-Evaluacion\LoginandList\LoginandList\bin\Debug\net6.0-windows\LoginandList.runtimeconfig.json
+C:\Users\ivant\OneDrive\Escritorio\2Dam\Interfaces\2-Evaluacion\LoginandList\LoginandList\bin\Debug\net6.0-windows\LoginandList.dll
+C:\Users\ivant\OneDrive\Escritorio\2Dam\Interfaces\2-Evaluacion\LoginandList\LoginandList\bin\Debug\net6.0-windows\LoginandList.pdb
+C:\Users\ivant\OneDrive\Escritorio\2Dam\Interfaces\2-Evaluacion\LoginandList\LoginandList\obj\Debug\net6.0-windows\LoginandList.csproj.AssemblyReference.cache
+C:\Users\ivant\OneDrive\Escritorio\2Dam\Interfaces\2-Evaluacion\LoginandList\LoginandList\obj\Debug\net6.0-windows\LoginandList.Form1.resources
+C:\Users\ivant\OneDrive\Escritorio\2Dam\Interfaces\2-Evaluacion\LoginandList\LoginandList\obj\Debug\net6.0-windows\LoginandList.csproj.GenerateResource.cache
+C:\Users\ivant\OneDrive\Escritorio\2Dam\Interfaces\2-Evaluacion\LoginandList\LoginandList\obj\Debug\net6.0-windows\LoginandList.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ivant\OneDrive\Escritorio\2Dam\Interfaces\2-Evaluacion\LoginandList\LoginandList\obj\Debug\net6.0-windows\LoginandList.AssemblyInfoInputs.cache
+C:\Users\ivant\OneDrive\Escritorio\2Dam\Interfaces\2-Evaluacion\LoginandList\LoginandList\obj\Debug\net6.0-windows\LoginandList.AssemblyInfo.cs
+C:\Users\ivant\OneDrive\Escritorio\2Dam\Interfaces\2-Evaluacion\LoginandList\LoginandList\obj\Debug\net6.0-windows\LoginandList.csproj.CoreCompileInputs.cache
+C:\Users\ivant\OneDrive\Escritorio\2Dam\Interfaces\2-Evaluacion\LoginandList\LoginandList\obj\Debug\net6.0-windows\LoginandList.dll
+C:\Users\ivant\OneDrive\Escritorio\2Dam\Interfaces\2-Evaluacion\LoginandList\LoginandList\obj\Debug\net6.0-windows\refint\LoginandList.dll
+C:\Users\ivant\OneDrive\Escritorio\2Dam\Interfaces\2-Evaluacion\LoginandList\LoginandList\obj\Debug\net6.0-windows\LoginandList.pdb
+C:\Users\ivant\OneDrive\Escritorio\2Dam\Interfaces\2-Evaluacion\LoginandList\LoginandList\obj\Debug\net6.0-windows\LoginandList.genruntimeconfig.cache
+C:\Users\ivant\OneDrive\Escritorio\2Dam\Interfaces\2-Evaluacion\LoginandList\LoginandList\obj\Debug\net6.0-windows\ref\LoginandList.dll

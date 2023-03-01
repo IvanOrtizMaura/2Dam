@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="800.0" prefWidth="390.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cide.projectofinal.tim.LoginContraseñaController">
+   <children>
+      <Button fx:id="btnIniciarSesion" layoutX="152.0" layoutY="341.0" mnemonicParsing="false" onAction="#verificarContraseña" style="-fx-background-color: rgba(44,42,138,0.82);" text="Iniciar Sesion" textFill="WHITE" />
+      <Label fx:id="lblBienvenido" alignment="CENTER" layoutX="89.0" layoutY="237.0" prefHeight="32.0" prefWidth="211.0" text="Bienvenido " textAlignment="CENTER" />
+      <PasswordField fx:id="txtContrasena" layoutX="121.0" layoutY="294.0" onAction="#verificarContraseña" promptText="Contraseña" />
+      <Button fx:id="btnOlvidadoContraseña" layoutX="110.0" layoutY="400.0" mnemonicParsing="false" style="-fx-background-color: transparent;" text="¿Has olvidado la contraseña?" textFill="#2c2b8acc" />
+      <TextField accessibleRole="PASSWORD_FIELD" layoutX="110.0" layoutY="469.0" />
+   </children>
+</Pane>

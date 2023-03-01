@@ -1,0 +1,8 @@
+C:\Users\ivant\OneDrive\Escritorio\2Dam\Interfaces\2-Evaluacion\Calculaman\Calculaman\obj\Debug\net6.0-windows\Calculaman.csproj.AssemblyReference.cache
+C:\Users\ivant\OneDrive\Escritorio\2Dam\Interfaces\2-Evaluacion\Calculaman\Calculaman\obj\Debug\net6.0-windows\Calculaman.CalculaMan.resources
+C:\Users\ivant\OneDrive\Escritorio\2Dam\Interfaces\2-Evaluacion\Calculaman\Calculaman\obj\Debug\net6.0-windows\Calculaman.Properties.Resources.resources
+C:\Users\ivant\OneDrive\Escritorio\2Dam\Interfaces\2-Evaluacion\Calculaman\Calculaman\obj\Debug\net6.0-windows\Calculaman.csproj.GenerateResource.cache
+C:\Users\ivant\OneDrive\Escritorio\2Dam\Interfaces\2-Evaluacion\Calculaman\Calculaman\obj\Debug\net6.0-windows\Calculaman.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ivant\OneDrive\Escritorio\2Dam\Interfaces\2-Evaluacion\Calculaman\Calculaman\obj\Debug\net6.0-windows\Calculaman.AssemblyInfoInputs.cache
+C:\Users\ivant\OneDrive\Escritorio\2Dam\Interfaces\2-Evaluacion\Calculaman\Calculaman\obj\Debug\net6.0-windows\Calculaman.AssemblyInfo.cs
+C:\Users\ivant\OneDrive\Escritorio\2Dam\Interfaces\2-Evaluacion\Calculaman\Calculaman\obj\Debug\net6.0-windows\Calculaman.csproj.CoreCompileInputs.cache

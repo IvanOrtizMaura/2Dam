@@ -1,0 +1,17 @@
+C:\Users\ivant\OneDrive\Escritorio\2Dam\Interfaces\2-Evaluacion\CalculamanV2\CalculamanV2\bin\Debug\net6.0-windows\CalculamanV2.exe
+C:\Users\ivant\OneDrive\Escritorio\2Dam\Interfaces\2-Evaluacion\CalculamanV2\CalculamanV2\bin\Debug\net6.0-windows\CalculamanV2.deps.json
+C:\Users\ivant\OneDrive\Escritorio\2Dam\Interfaces\2-Evaluacion\CalculamanV2\CalculamanV2\bin\Debug\net6.0-windows\CalculamanV2.runtimeconfig.json
+C:\Users\ivant\OneDrive\Escritorio\2Dam\Interfaces\2-Evaluacion\CalculamanV2\CalculamanV2\bin\Debug\net6.0-windows\CalculamanV2.dll
+C:\Users\ivant\OneDrive\Escritorio\2Dam\Interfaces\2-Evaluacion\CalculamanV2\CalculamanV2\bin\Debug\net6.0-windows\CalculamanV2.pdb
+C:\Users\ivant\OneDrive\Escritorio\2Dam\Interfaces\2-Evaluacion\CalculamanV2\CalculamanV2\obj\Debug\net6.0-windows\CalculamanV2.csproj.AssemblyReference.cache
+C:\Users\ivant\OneDrive\Escritorio\2Dam\Interfaces\2-Evaluacion\CalculamanV2\CalculamanV2\obj\Debug\net6.0-windows\CalculamanV2.Form1.resources
+C:\Users\ivant\OneDrive\Escritorio\2Dam\Interfaces\2-Evaluacion\CalculamanV2\CalculamanV2\obj\Debug\net6.0-windows\CalculamanV2.csproj.GenerateResource.cache
+C:\Users\ivant\OneDrive\Escritorio\2Dam\Interfaces\2-Evaluacion\CalculamanV2\CalculamanV2\obj\Debug\net6.0-windows\CalculamanV2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ivant\OneDrive\Escritorio\2Dam\Interfaces\2-Evaluacion\CalculamanV2\CalculamanV2\obj\Debug\net6.0-windows\CalculamanV2.AssemblyInfoInputs.cache
+C:\Users\ivant\OneDrive\Escritorio\2Dam\Interfaces\2-Evaluacion\CalculamanV2\CalculamanV2\obj\Debug\net6.0-windows\CalculamanV2.AssemblyInfo.cs
+C:\Users\ivant\OneDrive\Escritorio\2Dam\Interfaces\2-Evaluacion\CalculamanV2\CalculamanV2\obj\Debug\net6.0-windows\CalculamanV2.csproj.CoreCompileInputs.cache
+C:\Users\ivant\OneDrive\Escritorio\2Dam\Interfaces\2-Evaluacion\CalculamanV2\CalculamanV2\obj\Debug\net6.0-windows\CalculamanV2.dll
+C:\Users\ivant\OneDrive\Escritorio\2Dam\Interfaces\2-Evaluacion\CalculamanV2\CalculamanV2\obj\Debug\net6.0-windows\refint\CalculamanV2.dll
+C:\Users\ivant\OneDrive\Escritorio\2Dam\Interfaces\2-Evaluacion\CalculamanV2\CalculamanV2\obj\Debug\net6.0-windows\CalculamanV2.pdb
+C:\Users\ivant\OneDrive\Escritorio\2Dam\Interfaces\2-Evaluacion\CalculamanV2\CalculamanV2\obj\Debug\net6.0-windows\CalculamanV2.genruntimeconfig.cache
+C:\Users\ivant\OneDrive\Escritorio\2Dam\Interfaces\2-Evaluacion\CalculamanV2\CalculamanV2\obj\Debug\net6.0-windows\ref\CalculamanV2.dll

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a34828bf-c9d4-426f-b515-df746a77bf6b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../2-Evaluacion/Tienda/Tienda.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2-Evaluacion/Tienda/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2-Evaluacion/Tienda/src/main/java/tablas/Fabricante.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2-Evaluacion/Tienda/src/main/java/tablas/Producto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2-Evaluacion/Tienda/src/main/resources/Fabricante.hbm.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2-Evaluacion/Tienda/src/main/resources/Producto.hbm.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2-Evaluacion/Tienda/src/main/resources/hibernate.cfg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2-Evaluacion/U03EX01/videclub.db4o" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2-Evaluacion/U4EX01/src/main/java/modulos/Departamento.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2-Evaluacion/U4EX01/src/main/java/modulos/Empleado.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2-Evaluacion/U4EX01/src/main/resources/hibernate.cfg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2-Evaluacion/U4EX02/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../2-Evaluacion/U4EX02/src/main/resources/hibernate.cfg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Interfaces/TIM/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Interfaces/TIM/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Interfaces/TIM/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Interfaces/TIM/src/main/java/cide/projectofinal/tim/LoginContraseñaController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Interfaces/TIM/src/main/java/cide/projectofinal/tim/RecuperarUsuarioController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Interfaces/TIM/src/main/java/cide/projectofinal/tim/Ventana.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Prog_Multimedia/2-Evaluacion/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Prog_Multimedia/2-Evaluacion/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Prog_Multimedia/2-Evaluacion/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Prog_Multimedia/2-Evaluacion/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Prog_Multimedia/Validador/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Prog_Multimedia/Validador/app/src/main/java/es/cide/validador/Intent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Prog_Multimedia/Validador/app/src/main/res/layout/activity_intent.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Servicios_i_Procesos/2-Evaluacion/Actividad 11/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Servicios_i_Procesos/2-Evaluacion/Actividad 11/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Servicios_i_Procesos/2-Evaluacion/Actividad 11/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Servicios_i_Procesos/2-Evaluacion/Actividad 11/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Servicios_i_Procesos/2-Evaluacion/Actividad 11/Actividad 11.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Servicios_i_Procesos/2-Evaluacion/Actividad 11/src/HiloServidor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Servicios_i_Procesos/2-Evaluacion/Actividad 11/src/Server.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Servicios_i_Procesos/2-Evaluacion/Actividad9/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Servicios_i_Procesos/2-Evaluacion/Actividad9/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Servicios_i_Procesos/2-Evaluacion/Actividad9/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Servicios_i_Procesos/2-Evaluacion/Actividad9/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Servicios_i_Procesos/2-Evaluacion/Actividad9/Actividad9.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Servicios_i_Procesos/2-Evaluacion/Actividad9/src/A.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Servicios_i_Procesos/2-Evaluacion/Calculadora/Calculadora.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../2-Evaluacion/U03EX01/src/main/java/org/example/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../2-Evaluacion/U03EX01/src/main/java/org/example/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Servicios_i_Procesos/2-Evaluacion/Actividad 8/src/A.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Servicios_i_Procesos/2-Evaluacion/Actividad 8/src/A.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="2L9ES1QOBuIvLulZy27wcImcY5Q" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;
+  }
+}</component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a34828bf-c9d4-426f-b515-df746a77bf6b" name="Changes" comment="" />
+      <created>1675274897394</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1675274897394</updated>
+      <workItem from="1675274899110" duration="7000" />
+      <workItem from="1675274949792" duration="585000" />
+      <workItem from="1675280798858" duration="151000" />
+      <workItem from="1675354341262" duration="169000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
