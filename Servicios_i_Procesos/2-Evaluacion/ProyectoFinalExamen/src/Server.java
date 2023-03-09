@@ -1,10 +1,7 @@
 import java.io.*;
 import java.net.*;
-import java.security.InvalidKeyException;
-import java.security.NoSuchAlgorithmException;
 import java.util.*;
 import javax.crypto.*;
-import javax.crypto.spec.SecretKeySpec;
 
 public class Server {
 
@@ -13,6 +10,7 @@ public class Server {
     public static void main(String[] args) {
         ListaCompartida lista = new ListaCompartida();
         ServerSocket servidor = null;
+        int maxConexiones = 10; // máximo número de conexiones aceptadas simultáneamente
 
         try {
             // Creamos la Clave AES
@@ -24,27 +22,36 @@ public class Server {
             ficheroSecreto.write(key.getEncoded());
             ficheroSecreto.close();
 
+            // Generamos el algoritmo cifrado
+            Cipher algoritmoCifrado = Cipher.getInstance("AES");
+            algoritmoCifrado.init(Cipher.ENCRYPT_MODE, key);
+
+            // Generamos el algoritmo descifrado
+            Cipher algoritmoDescifrado = Cipher.getInstance("AES");
+            algoritmoDescifrado.init(Cipher.DECRYPT_MODE, key);
             servidor = new ServerSocket(port);
+
             System.out.println("Servidor abierto en el puerto " + port);
 
-            while (servidor != null) {
-                // Esperar a que llegue una conexión entrante
+            int numConexiones = 0;
+            while (numConexiones < maxConexiones) {
                 Socket conexion = servidor.accept();
+                numConexiones++;
                 new HiloServidor(conexion, lista).start();
-
             }
-        } catch (IOException | NoSuchAlgorithmException e) {
-            // TODO Auto-generated catch block
-            e.printStackTrace();
+        } catch (IOException e) {
+            System.err.println("Error al abrir el servidor: " + e.getMessage());
+        } catch (Exception e) {
+            System.err.println("Error inesperado: " + e.getMessage());
         } finally {
             try {
-                servidor.close();
+                if (servidor != null) {
+                    servidor.close();
+                }
             } catch (IOException e) {
-                // TODO Auto-generated catch block
-                e.printStackTrace();
+                System.err.println("Error al cerrar el servidor: " + e.getMessage());
             }
         }
-
     }
 
 }
@@ -53,92 +60,95 @@ class ListaCompartida {
     HashMap<String, Socket> clientes = new HashMap<String, Socket>();
 
     public ListaCompartida() {
-
     }
 
     public synchronized void nueva(Socket conexion, String nombre, PrintWriter escribir) {
-
+        if (clientes.containsKey(nombre)) {
+            escribir.println("Error: El nombre de usuario ya existe.");
+            return;
+        }
         clientes.put(nombre, conexion);
         System.out.println("Se ha conectado " + nombre);
     }
 
-    public synchronized void comandos(String linea, Socket conexion, PrintWriter escribir) {
+    public synchronized void comandos(String linea, String nombre, Socket conexion, PrintWriter escribir) {
+
         if (linea.toLowerCase().startsWith("/private")) {
-            privado(linea, escribir);
+            privado(nombre, linea, escribir);
             return;
         }
         switch (linea.toLowerCase()) {
-
             case "/list":
-                escribir.println("CLientes conectados: " + clientes.keySet());
+                if (!clientes.isEmpty()) {
+                    escribir.println("Servidor: ( CLientes conectados: " + clientes.keySet() + ")");
+                } else {
+                    escribir.println("Servidor: No hay clientes conectados.");
+                }
                 break;
             case "/whoami":
-                String nombre = null;
-
                 for (HashMap.Entry<String, Socket> entry : clientes.entrySet()) {
                     if (entry.getValue() == conexion) {
                         nombre = entry.getKey();
                         break;
                     }
                 }
-                escribir.println("Su nombre es " + nombre);
+                if (nombre != null) {
+                    escribir.println("Servidor: Su nombre es " + nombre);
+                } else {
+                    escribir.println("Error: No se pudo encontrar el nombre del cliente.");
+                }
                 break;
             default:
-                escribir.println("No es un comando valido");
-
+                escribir.println("Servidor: No es un comando valido");
         }
-
     }
 
     public synchronized void broadcast(String nombre, String linea) {
+        if (clientes.isEmpty()) {
+            return;
+        }
         clientes.forEach((hilo, socket) -> {
-            PrintWriter escribir;
+            PrintWriter escribir = null;
             try {
                 escribir = new PrintWriter(socket.getOutputStream(), true);
                 if (!hilo.equals(nombre)) {
-                    escribir.println(nombre + ": " + linea);
+                    escribir.println(nombre + ":" + linea);
                 }
-
             } catch (IOException e) {
-                // TODO Auto-generated catch block
                 e.printStackTrace();
             }
-
         });
-
     }
 
-    public synchronized void privado(String linea, PrintWriter escribir) {
-        String[] lineaComando = linea.split(" ");
+    public synchronized void privado(String nombre, String linea, PrintWriter escribir) {
+        String[] lineaComando = linea.split(" ",3);
         if (lineaComando.length < 3) {
             escribir.println("Error: /private [destinatario] [mensaje]");
             return;
         }
-        if (!clientes.containsKey(lineaComando[1])) {
+        String destinatario = lineaComando[1];
+        if (!clientes.containsKey(destinatario)) {
             escribir.println("Error: Cliente no está conectado o no existe");
             return;
         }
-        String mensaje = "";
-        for (int i = 2; i < lineaComando.length; i++) {
-            mensaje += lineaComando[i] + " ";
-        }
         try {
-            escribir = new PrintWriter(clientes.get(lineaComando[1]).getOutputStream(), true);
-            escribir.println(mensaje);
+            PrintWriter privado = new PrintWriter(clientes.get(destinatario).getOutputStream(), true);
+            privado.println("Mensaje privado:" + nombre + ":" + lineaComando[2]);
         } catch (IOException e) {
-            // TODO Auto-generated catch block
-            e.printStackTrace();
+            escribir.println("Error: No se pudo enviar el mensaje privado.");
         }
-
     }
 
-    public synchronized void cerrar(String nombre, Socket conexion) {
-        clientes.remove(nombre, conexion);
+    public synchronized void cerrar(String nombre) {
+        if (!clientes.containsKey(nombre)) {
+            return;
+        }
+        clientes.remove(nombre);
         String mensaje = nombre + " se ha desconectado";
         broadcast(nombre, mensaje);
         System.out.println(mensaje);
-
     }
+
 }
 
 class HiloServidor extends Thread {
@@ -165,10 +175,6 @@ class HiloServidor extends Thread {
             // Leer el primer mensaje del cliente
             String linea = leerCliente.readLine();
 
-            // Enviar mensaje de bienvenida al cliente
-            escribir.println("Bienvenido");
-            escribir.println(" ");
-
             // Leer mensajes del cliente hasta recibir "/EXIT"
             while (linea != null) {
                 if (linea.equalsIgnoreCase("/EXIT")) {
@@ -176,7 +182,7 @@ class HiloServidor extends Thread {
                     break;
                 } else if (linea.startsWith("/")) {
                     // Ejecutar comandos si se reciben mensajes que comienzan con "/"
-                    lista.comandos(linea, conexion, escribir);
+                    lista.comandos(linea, getName(), conexion, escribir);
                 } else {
                     // Enviar mensaje a todos los clientes si no es un comando
                     lista.broadcast(getName(), linea);
@@ -186,7 +192,7 @@ class HiloServidor extends Thread {
 
             // Eliminar la conexión de la lista compartida y cerrar los objetos de lectura y
             // escritura
-            lista.cerrar(getName(), conexion);
+            lista.cerrar(getName());
             leerCliente.close();
             escribir.close();
             conexion.close();

@@ -98,11 +98,7 @@ class ListaCompartida {
                 }
             } catch (IOException e) {
                 e.printStackTrace();
-            } finally {
-                if (escribir != null) {
-                    escribir.close();
-                }
-            }
+            } 
         });
     }
 
